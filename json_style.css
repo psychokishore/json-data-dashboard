@@ -1,0 +1,47 @@
+.text-center {
+    text-align: center;
+}
+
+.topnav-right {
+    float: right;
+}
+.td,.th{
+  padding-top: 10px; 
+  padding-left: 10px; 
+  padding-right: 10px; 
+  padding-bottom:10px
+}
+
+.header-all {
+    margin: 5% 0;
+}
+
+
+
+#myHeader {
+    margin: 0 0 5% 0;
+    background-color: grey; 
+}
+
+#myHome, #myTable, #myForm, #myFilter {
+    text-decoration: none;
+    color: white;
+    background-color: blue; 
+    padding: 1.5rem;
+    border-radius: 5%;
+    border-color: white;
+}
+
+
+#myHome.active, #myTable.active, #myForm.active, #myFilter.active {
+    background-color: white;
+    color: blue;
+    border-color: blue;
+}
+
+#myFooter {
+    position: absolute;
+    bottom: 0;
+    width: 1200px;
+    height: 2.5rem;
+}

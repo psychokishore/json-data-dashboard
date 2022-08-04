@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title id="relation">Table</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="json_style.css">
+
+        <script>
+            var myName = "table";
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <script src="https://login2explore.com/jpdb/resources/js/0.0.4/jpdb-commons.js"></script>
+        <script src="json_common.js"></script>
+        <script src="json_table.js"></script>
+    </head>
+    <body onload = "data_of_Db()" >
+        <div class="container">
+
+            <div id="myHeader"></div>
+            <nav class="navbar navbar-lg" style="margin-top : 4%">
+             <div class="topnav-right">
+            <a class="nav-link" onclick="myTable()" >Table</a>  
+            <a class="nav-link" onclick="myHome()" >Home</a>
+             <a class="nav-link" onclick="myFilter()" >Filter</a>
+            </div> 
+             </nav>
+            <div class="row text-center">
+                <h2 style="margin-bottom: 3%;">Table</h2>
+                <form>
+                    <div class="form-group row">
+                        <label for="Db" class="col-sm-1 col-form-label"> Db: </label>
+                        <div class="col-sm-4">
+                            <select onchange ="get_rel1()" name="Database" class="form-control" id="Db1">
+                            <option value="lol">select Db</option>
+                            </select>
+                            
+                        </div>
+                        <label for="relation" class="col-sm-1 col-form-label">Rel : </label>
+                        <div class="col-sm-4" id = "reldiv">
+                            <select onchange ="get_rec1()"  class="form-control" id="Rel1"></select>
+                        </div>
+                         <button type="button" class="class="col-sm-1 btn btn-primary btn-lg" id="add_data" onclick = "add_d()">Add</button>
+                         <button type="button" class="class="col-sm-1 btn btn-primary btn-lg" id="del_Rel" onclick = "del_rel()">Del Rel</button>
+                    </div>
+                    <label class="col-sm-8 col-form-label"></label>
+                    <div > 
+                    <div class ="col-sm-1 " id = "secol1">
+                    <select   class="form-control" id="searchcol1"></select>
+                    </div>
+                    <input type="text" id="search" value=""/>
+                     <button type="button" class="class="col-sm-1 btn btn-primary btn-lg" onclick = "ser_rec()">search</button>
+                     <button type="button" class="class="col-sm-1 btn btn-primary btn-lg"  onclick = "tableToCSV()">csv</button>
+                     </div>
+                  <span class="border border-primary rounded">
+                    <section id ="crt_tbl">
+                       <table id="RecT">
+                        </table>        
+                        </section>
+                        </span>
+                </form>
+            </div>
+            <div id="myFooter" class="text-center"></div>    
+
+
+        </div>
+        <script> checkSession();loadHeader(); loadFooter();</script>
+    </body>
+</html>

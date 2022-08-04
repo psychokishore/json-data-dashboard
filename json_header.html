@@ -1,0 +1,25 @@
+<header>
+    <div class="row page-header">
+            <div id="myToken" style="margin-left: 75%;"></div>
+        </a>
+    </div>
+
+    <nav class="navbar navbar-lg">
+        <div class="topnav-right">
+            <a class="nav-link" href="json_home.html" id="myHome">Home</a>  
+            <a class="nav-link" href="json_table.html" id="myTable">Tables</a>   
+            <a class="nav-link" href="json_form.html" id="myForm">Form</a>  
+            <a class="nav-link" href="json_filter.html" id="myFilter">Filter</a>
+            <a class="nav-link" onclick="deleteSession()">Detokenize</a>
+        </div> 
+    </nav>
+</header>
+
+<script>
+    var Token = localStorage.getItem("Token");
+    document.getElementById("myToken").innerText = Token;
+    function deleteSession(){
+    localStorage.clear();
+    window.location.href = "json_home.html";
+    }
+</script>
