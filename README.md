@@ -28,3 +28,4 @@ Sources<br>
 
 Other information
 
+<img src="jsondtdb.png"></img>
