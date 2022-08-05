@@ -1,11 +1,7 @@
 # json-data-dashboard
 
-Publish your project to GitHub.<br>
-Steps to follow:<br>
 
-# Update the readme.md file with at least following sections:<br>
-
-Required Sections:<br>
+#  Info Sections:<br>
 
 Title of the Project :JSON DATA DASHBOARD <br>
 
