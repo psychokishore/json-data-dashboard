@@ -7,7 +7,7 @@ Title of the Project :JSON DATA DASHBOARD <br>
 
 Brief Description of the project: This eases the use of data addition ,modification etc to JsonPowerDB.<br>
 
-Demo Video (Recorded in the previous Activity): <video   src="jsondatadashboard.mp4" type="video/mp4"></video>                                                                 <br>
+Demo Video (Recorded in the previous Activity): jsondatadashboard.mp4                                                                <br>
 
 Important Links:<br>
 
@@ -29,3 +29,4 @@ Sources<br>
 Other information
 
 <img src="jsondtdb.png"></img>
+<video   src="jsondatadashboard.mp4" type="video/mp4"></video>
