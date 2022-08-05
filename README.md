@@ -1,1 +1,34 @@
 # json-data-dashboard
+
+Publish your project to GitHub.<br>
+Steps to follow:<br>
+
+# Update the readme.md file with at least following sections:<br>
+
+Required Sections:<br>
+
+Title of the Project :JSON DATA DASHBOARD <br>
+
+Brief Description of the project: This eases the use of data addition ,modification etc to JsonPowerDB.<br>
+
+Demo Video (Recorded in the previous Activity): jsondatadashboard.mp4 <br>
+
+Important Links:<br>
+
+Home page: https://login2explore.com<br>
+Register to use JsonPowerDB: http://api.login2explore.com<br>
+JsonPowerDB Help: https://login2explore.com/jpdb/docs.html<br>
+
+
+Additional you can have:<br>
+
+Table of contents:  home,tables pages.<br>
+
+Scope of functionalities: this need a small change to be used just in table section if not it can be used to fully control api. <br>   
+
+Project status: mostly completed<br>
+
+Sources<br>
+
+Other information
+
